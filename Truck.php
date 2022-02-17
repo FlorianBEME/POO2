@@ -47,7 +47,7 @@ class Truck extends Vehicle
 
     public function isFull(): string
     {
-        if ($this->cargo <= $this->capacityStorage) {
+        if ($this->getCargo() <= $this->getCapacityStorage()) {
             return "In filling";
         } else {
             return "is Full";

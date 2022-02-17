@@ -12,3 +12,5 @@ $truck->forward();
 $truck->brake();
 $truck->isFull();
 
+echo $truck->isFull();
+
